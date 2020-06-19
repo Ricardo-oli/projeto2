@@ -1,0 +1,183 @@
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <title>Coxinha do Oliveira</title>
+    <script>
+        function calc_total() {
+          var qtd = parseInt(document.getElementById('cQtd').value);
+          tot = qtd * 0.99;
+          document.getElementById('cTot').value = tot;
+        }    
+    </script>
+       
+      
+
+   
+</head> 
+
+<body>
+    <header class="menu-principal">
+       <main>
+        <div class="header-1">
+            <div class="logo"> 
+                <img src="./img/alogo.png"/>
+            </div>
+          
+        </div>
+    </main>
+    </header>
+    <main>
+        <div class="header-2">
+            <div class="menu">
+              <ul>
+                  <li><a href="index.html">Inicio</a>
+                </li>
+                  <li><a href="login.html">Login</a>
+                </li>
+                  <li><a href="cadastro.html">Cadastro</a>
+                </li>
+                  <li><a href="quemsomos.html">Quem somos</a>
+                </li>
+              </ul> 
+            </div>
+
+        </div>
+    </main>
+  </body>
+  <body>
+   <section class="sabores">
+     <h1> Sabores</h1>
+     <div class="Conteudo">
+        
+      <div class="imagem">
+        <img src='./img/massa-de-coxinha-receita.jpg' width="300" height="200" alt=""> <br>
+        </div>
+         
+       
+
+        <div class="texto">
+          <form method="post" id="fContato" action="mailto:ricardo_oliveira@unigranrio.com" oninput="calc_total();">
+         <h2> Frango Clássica </h2>
+         <h3>Apenas R$ 0,99 und</h3>
+         <p><label for="cQtd">Quantidade:</label>
+         <input type="number" name="tQtd" id="cQtd" min="0" max="50" value="0"/></p>
+
+         <p><label for="cTot">Preço Total:</label> </label>
+        <input type="text" name="tTot" id="cTot" maxlength="4" placeholder="Total a pagar" readonly/></p>
+
+        <input type="submit" value="Comprar">
+        </div>
+          
+    </div>
+
+    <div class="Conteudo">
+        
+      <div class="imagem">
+        <img src='./img/unnamed.jpg' width="300" height="200" alt=""> <br>
+        </div>
+
+        <div class="texto">
+       
+         <h2> Calabresa </h2>
+         <h3>Apenas R$ 1,98 und</h3>
+         <p><label for="cQtd2">Quantidade:</label>
+          <input type="number" name="tQtd2" id="cQtd2" min="0" max="50" value="0"/></p>
+ 
+          <p><label for="cTot2">Preço Total:</label> </label>
+         <input type="text" name="tTot2" id="cTot2" maxlength="4" placeholder="Total a pagar" readonly/></p>
+ 
+         <input type="submit" value="Comprar">
+         </div>
+        </div>
+          
+    </div>
+
+    <div class="Conteudo">
+        
+      <div class="imagem">
+        <img src='./img/Coxinha-de-Queijo-e1533848068660.png' width="300" height="200" alt=""> <br>
+        </div>
+
+        <div class="texto">
+          <h2> Queijo </h2>
+        <h3>Apenas R$ 0,99 und</h3>
+        <p><label for="cQtd">Quantidade:</label>
+          <input type="number" name="tQtd" id="cQtd" min="0" max="50" value="0"/></p>
+ 
+          <p><label for="cTot">Preço Total:</label> </label>
+         <input type="text" name="tTot" id="cTot" maxlength="4" placeholder="Total a pagar" readonly/></p>
+ 
+         <input type="submit" value="Comprar">
+
+        </div>
+          
+    </div>
+
+    <div class="Conteudo">
+        
+      <div class="imagem">
+        <img src='./img/carne.jpeg' width="300" height="200" alt=""> <br>
+        </div>
+
+        <div class="texto">
+          <h2> Carne Seca </h2>
+         <h3>Apenas R$ 2,05 und</h3>
+         <p><label for="cQtd">Quantidade:</label>
+          <input type="number" name="tQtd" id="cQtd" min="0" max="50" value="0"/></p>
+ 
+          <p><label for="cTot">Preço Total:</label> </label>
+         <input type="text" name="tTot" id="cTot" maxlength="4" placeholder="Total a pagar" readonly/></p>
+ 
+         <input type="submit" value="Comprar">
+        </div>
+          
+    </div>
+    <div class="Conteudo">
+        
+      <div class="imagem">
+        <img src='./img/doce.jpg' width="300" height="200" alt=""> <br>
+        </div>
+
+        <div class="texto">
+          <h2> Morango com Chocolate </h2>
+          <h3>Apenas R$ 2,99 und</h3>
+          <p><label for="cQtd">Quantidade:</label>
+            <input type="number" name="tQtd" id="cQtd" min="0" max="50" value="0"/></p>
+   
+            <p><label for="cTot">Preço Total:</label> </label>
+           <input type="text" name="tTot" id="cTot" maxlength="4" placeholder="Total a pagar" readonly/></p>
+   
+           <input type="submit" value="Comprar">
+        </div>
+          
+    </div>
+
+  </section>
+  <footer id="baixo">
+        <h3>Coxinha do Oliveira<br>  
+          &copy; Todos os direitos reservedos 2020 </h3>  
+     
+  
+  
+  </footer>
+  
+  
+  </div>
+</div>
+
+
+
+
+ 
+
+
+</body>
+
+ 
+    
+</html>
+
+  
